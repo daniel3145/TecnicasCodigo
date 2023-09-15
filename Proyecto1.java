@@ -7,7 +7,7 @@ public class Proyecto1
 {
     /*
     -En el siguien ejercicio se va a tener encuenta la informacion de unas fabricas de confecio
-    las cuales son muy comunes en el municipio de Donmatias en el cual vivo logrando apreciar con datos ficticios
+    las cuales son muy comunes en el municipio de Donmatias en el cual vivo logrando aprenciar con datos ficticios
     las ganancias que tiene con una produccion la empresa que mas produce entre otros analisis basados en
     la siguiente informacion.
     Nombrefabrica,N*Operarios, HorasTrabajadas, TipoTela, N°Maquinas, TiempoCreacionTotalU, TipoPrenda, N°unidade,TotalaResivir.
@@ -96,8 +96,6 @@ public static void main(String[] args)
     promdinero = acumuladordinero/data.length;
     promunidades = acumuladorunidades/data.length;
     
-    //BigInteger bi = BigDecimal.valueOf(Math.PI).toBigIntegerExact();
-    
     
     BigInteger promd = BigDecimal.valueOf(promdinero).toBigInteger();
     BigInteger mg = BigDecimal.valueOf(mayorg).toBigInteger();
@@ -180,6 +178,13 @@ public static void main(String[] args)
 }
 
 }    
+
+
+
+
+    
+  
+    
 
 
 
